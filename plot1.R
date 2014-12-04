@@ -21,6 +21,7 @@ axis(side=2, at=seq(0,1200,200))
 
 # Copy to a png file
 # stayed with default "white" background because it makes the plot clearer
+# to do transparency, bg="transparent"
 dev.copy(png, file="plot1.png", width=480, height=480, units="px", bg="white")
 dev.off()
 
